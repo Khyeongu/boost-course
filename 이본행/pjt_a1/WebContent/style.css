@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+a { text-decoration:none }/*모든 링크 텍스트 밑줄 제거*/
+
+.taplink {color: rgba(128,0,128,0.6); font-weight:bold; font-size: 13px;}
+
+.centerlink {color: white; font-weight:bold;}
+
+.selector {word-break:break-all; white-space: pre;}
+
+input{
+	color: purple;
+	background-color: rgba(0,0,0,0);
+	border: 0;
+	outline: 0;
+}
+
+#wrapper {
+	width: 940px;
+	margin: 0px auto;/*가운데 정렬*/
+	border: 10px solid #a6c6ba;/*전체 테두리 초록색*/
+	border-bottom: 50px solid #a6c6ba;/*아래 테두리 초록색 두껍게*/
+	text-align: center;/*모든 글자 가운데 정렬*/
+}
+
+#section1 {
+	padding-top: 10px;/*section1의 내부 사이즈*/
+	padding-right: 20px;/*section1의 내부 사이즈*/
+	padding-bottom: 60px;/*section1의 내부 사이즈*/
+	padding-left: 100px;/*section1의 내부 사이즈*/
+	margin-bottom: 20px;
+	border-bottom: 10px solid #a6c6ba;/*section1의 아래 테두리 초록색*/	
+	text-align: right;
+}
+
+.list { /*button tab 구현*/
+	height: 35px;
+	width: 100px;
+	float: left;
+	color: white;
+	background-color: #9bc2cc;
+	list-style: none;
+	text-align: center;
+	line-height: 35px;/*탭 박스 내 글자 높이*/
+	margin: 0px 5px 20px 20px;
+	box-shadow: 1px 2.5px 5px 2px #c0c0c0;/*UI 그림자효과*/
+	text-decoration:none
+}
+
+#section1 > #nav-section > ul {
+	margin-left: 280px;
+}
+
+#section2{
+	width: 940px;
+	margin-bottom: 30px;/*footer의 내부 사이즈*/
+	float: left;
+	padding-bottom: 50px;/*index map 이미지와 footer사이의 공백*/
+}
+
+#section2-aboutme{/*aboutme페이지의 section2*/
+	width: 800px;
+	margin-bottom: 10px;/*footer의 내부 사이즈*/
+	/*float: left*/
+	padding-top: 20px;
+	padding-left: 70px;/*이미지 아래 공백*/
+	text-align: left;
+}
+
+#section2-aboutme ul {/*section2-aboutme의 2번째 나의 포트폴리오의 내용에 해당되는 ul의 속성 지정*/
+	list-style: none;
+	padding: 0px;
+}
+
+#section2-aboutme:after {/*aboutme 페이지의 아래 초록색 테두리*/
+	content: ".";
+   	width:120%;
+  	display:block;
+  	margin-top: 50px;/*이미지와 border간의 간격*/ 
+  	margin-right: 50px;
+}
+
+#section2-photo{/*photo페이지의 Contents에 해당하는 section2-photo*/
+	padding-bottom: 80px;
+}
+
+#photodiv1{/*photo페이지의 1번째 div*/
+	margin-right: 100px;
+}
+
+#photodiv1:after {/*photo페이지의 1번째 div아래의 경계선*/
+	content: ".";
+  	border-bottom:1px solid grey;
+  	width:110%;
+  	display:block;
+  	margin-top: 120px;/*이미지와 border간의 간격*/
+  	margin-left: 10px;
+}
+
+#photodiv1 > img {/*photo페이지의 1번째 div의 이미지*/
+	margin-left: 100px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+#photodiv2{/*photo페이지의 2번째 div*/
+	margin-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	padding-bottom: 100px;
+}
+
+#photodiv2 > img { /*photo페이지의 2번째 div의 이미지*/
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 100px;
+}
+
+.photop {/*aboutme 페이지의 내용 왼쪽 정렬 클래스*/
+	text-align: left;
+}
+
+#centerlinkId{
+	list-style: none;
+	float : left;
+	height: 100px;
+	width: 100px;
+	background-color: #9bc2cc;
+	text-align: center;
+	margin: 0px 5px 20px 20px;
+	line-height: 100px;
+	box-shadow: 2.5px 0px 4px 0px #c0c0c0;/*UI 그림자 효과*/
+	text-decoration:none;
+}
+
+#section2 > ul {
+	margin-left: 290px;
+}
+
+.photoimage{/*photo 페이지의 image*/
+	border: 7px solid #808080;/*테두리*/
+	float : left;
+	clear: both;
+} 
+
+#image {
+	width: 600px;
+	clear : both;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+#footer {
+	border-top: 10px solid #a6c6ba;/*section1의 아래 테두리 초록색*/
+  	clear: both;/*section2의 float:left*/
+  	item-align: center;
+  	padding-top: 20px;
+  	height: 70px;
+  	color: rgba(0,0,0,0.5);
+}
