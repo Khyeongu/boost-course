@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+body {
+  background-color : #FFCDD2;
+}
+
+.box {
+  background-color : #FFF;
+  margin-bottom : 10px;
+}
+
+#nav {
+  height : 50px;
+}
+
+#section {
+  height : 600px;
+}
+
+#footer {
+  height : 30px;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+ul {
+  list-style : none;
+  float : right;
+}
+
+li {
+  display : inline-block;
+  margin-left : 10px;
+  margin-right : 20px;
+}
+
+.menu {
+  display : inline-block;
+  border: none;
+  padding: 6px 20px;
+  text-decoration: none;
+  background-color : #EF9A9A;
+  color : #fff;
+  text-align : center;
+  box-shadow: 3px 3px 5px #ccc;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+#title {
+  font-size : 40px;
+  text-align : center;
+  padding-top : 15px;
+  padding-bottom : 10px;
+  font-family: 'Jua', sans-serif;
+}
+
+#sub_title {
+  text-align : center;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.section_button {
+  display : inline-block;
+  border: none;
+  margin-top : 15px;
+  margin-bottom : 20px;
+  padding: 25px 25px;
+  text-decoration: none;
+  background-color : #EF9A9A;
+  color : #fff;
+  text-align : center;
+  box-shadow: 3px 3px 5px #ccc;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+#map_img {
+  display : block;
+  margin : 0 auto;
+  width : 600px;
+}
+
+
+.headline {
+  font-size : 30px;
+  padding-top : 15px;
+  padding-left : 10px;
+  padding-right : 10px;
+  font-family: 'Jua', sans-serif;
+}
+
+.content {
+  padding-top : 20px;
+  padding-top : 15px;
+  padding-left : 10px;
+  padding-right : 10px;
+  font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.photo {
+  display : inline-block;
+  width : 250px;
+  border : 3px solid;
+  margin : 10px;
+  vertical-align: middle;
+}
+
+.photo_content {
+  display : inline-block;
+  margin-left : 10px;
+  font-family: 'Nanum Gothic Coding', monospace;
+  font-size: 18px;
+  font-weight: 800;
+}
