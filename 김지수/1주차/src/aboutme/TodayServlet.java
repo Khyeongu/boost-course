@@ -1,6 +1,10 @@
 package aboutme;
 
 import java.io.IOException;
+import java.io.PrintWriter;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -25,8 +29,23 @@ public class TodayServlet extends HttpServlet {
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		response.getWriter().append("Served at: ").append(request.getContextPath());
+		response.setContentType("text/html;charset=utf-8");
+		PrintWriter out = response.getWriter();
+		out.println("<html>");
+		out.println("<head><title>info</title></head>");
+		out.println("<body>");
+
+		LocalDateTime now = LocalDateTime.now();
+        out.println("<input style=\"background-color: rgba(0,0,0,0); border:0px; outline:0px; color:purple; "
+        		+ "text-decoration: underline; font-size: 17px;\" type=\"button\" value=\"메인화면\" name=\"tab1\" "
+        		+ "onclick=\"location.href='http://localhost:8080/jisuweb/index.html'\"/>");
+        DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm");
+        String formatDateTime = now.format(formatter2);
+        out.println("<h2>현재시간 : " + formatDateTime+"</h2>");
+
+		out.println("</body>");
+		out.println("</html>");
+		}
 	}
 
-}
+
