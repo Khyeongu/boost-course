@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+#main {
+  display : block;
+  font-size : 35px;
+  font-family: 'Do Hyeon', sans-serif;
+  margin top : 15px;
+  margin-left : 10px;
+}
+
+#upload {
+  float : right;
+  margin-right : 50px;
+  background-color: #C5CAE9;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.section {
+  float : left;
+  margin-top : 60px;
+  margin-left: 10px;
+}
+
+.list {
+  background-color : #90CAF9;
+  margin-bottom : 10px;
+  padding-left : 10px;
+  width : 270px;
+  height : 50px;
+  line-height: 50px;
+  font-size : 20px;
+  font-weight : 700;
+  color : #fff;
+}
+
+.content {
+  background-color : #B2DFDB;
+  margin-bottom : 10px;
+  padding-left : 10px;
+  width : 270px;
+  height : 100px;
+  line-height: 50px;
+}
+
+.title {
+  font-size : 20px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.detail {
+  font-size : 12px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.arrow {
+	
+}
+
+#upload_box {
+  width : 50%;
+  margin-left: 25%;
+}
+
+#upload_title {
+  font-size: 40px;
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#form {
+  margin-top: 20px;
+}
+
+.button {
+  float : right;
+}
+
+#submit_button {
+  margin-right: 5px;
+}
+
+#button_group {
+  margin-top: 20px;
+}
+
+.form {
+	width : 20px;
+}
